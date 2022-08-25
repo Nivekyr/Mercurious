@@ -1,0 +1,77 @@
+.profilepage{
+    background-color: #F4F4F6;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+}
+.profile_stats{
+    width: 60%;
+    height: 25%;
+    background-color: white;
+    margin: 2vw;
+    border-radius: 16px ;
+    padding: 1vw;
+    display: flex;
+}
+.profile{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.profile h1{
+    justify-content: center;
+}
+.profile_picture{
+    background-color: black;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    margin: auto;
+}
+.stat_percentage{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.stat_visited{
+    text-align: center;
+    margin: auto;
+}
+.vertical_divider{
+    height: 100%;
+    border: solid whitesmoke 0.5px;
+}
+.horizontal_divider{
+    width: 100%;
+    border: solid whitesmoke 0.5px;
+}
+.visited_countries{
+    display: flex;
+    margin-left: 1vw;
+}
+.visited_country{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: 1vw;
+}
+.visited_country h3{
+    margin-left: 25%;
+}
+.visited_cities{
+    width: 62%;
+    margin-left: 2vw;
+    height: auto;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.visited_city{
+    width: 45%;
+    height: 30vh;
+    background-color: blue;
+    border-radius: 20px;
+}

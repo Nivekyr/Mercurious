@@ -1,0 +1,13 @@
+.Feedpage{
+    background-color: #F4F4F6;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+}
+
+.feed{
+    width: 50vw;
+    height: auto;
+    min-height: 80vh;
+    margin: 2vw;
+}

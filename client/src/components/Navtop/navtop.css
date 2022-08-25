@@ -1,0 +1,48 @@
+.Navtop{
+    width: 85vw;
+    height: 10vh;
+    background-color: #FCFCFC;
+    display: flex;
+}
+
+.searchBar{
+    background-color: #F4F4F4;
+    border: none;
+    height: 40px;
+    width: 360px;
+    border-radius: 10px;
+    margin: auto 0 auto 2vw;
+    display: flex;
+}
+
+.navtopSearch{
+    height: 1.2vw;
+    margin: auto 1vw auto 1vw;
+}
+
+.inputSearchBar{
+    border: none;
+    height: 1.5vw;
+    margin: auto 1vw auto 0;
+    background-color: transparent;
+    outline:none;
+    font-size: 15px;
+}
+.navtop-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+
+}
+.navtopNotification{
+    height: 4vh;
+}
+.navtopProfile{
+    height: 3vw;
+    border-radius: 50px;
+    margin: auto 2vw auto 2vw
+}
+.navtopNotification, .navtopProfile:hover{
+    cursor: pointer;
+}

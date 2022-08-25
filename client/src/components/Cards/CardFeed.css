@@ -1,0 +1,32 @@
+.cardfeed{
+    height: 70vh;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 5%;
+}
+.imgfeed{
+    background-color: red;
+    width: 90%;
+    height: 70%;
+    margin: auto ;
+    border-radius: 20px;
+}
+.card_content{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.note_card_feed{
+    display: flex;
+}
+.note_card_feed img{
+    height: 30%;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+h2{
+    color: #7A7A88;
+    font-size: 25px;
+}

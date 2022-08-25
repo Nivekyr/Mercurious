@@ -1,0 +1,48 @@
+.Right{
+    margin-left: 15vw;
+}
+.likedpage{
+    background-color: #F4F4F6;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+}
+.likedpage h1{
+    margin-left: 4vw
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2vw 0 2vw;
+
+}
+.liked_city{
+    height: 40vh;
+    width: 25vw;
+    margin: auto;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+.liked_infos{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    width: 85%;
+    height: 30%;
+    margin: 50% auto;
+    border-radius: 10px;
+    
+}
+.liked_infos h3{
+    font-size: 25px;
+    padding:1vw 0 0 1vw;
+}
+.liked_number{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1vw 0 1vw;
+}
+.city_note h1{
+    margin:0 2vw 2vw 0;
+}
+

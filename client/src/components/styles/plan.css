@@ -1,0 +1,6 @@
+.Planpage{
+    background-color: #F4F4F6;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+}

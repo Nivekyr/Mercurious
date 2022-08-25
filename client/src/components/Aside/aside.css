@@ -1,0 +1,62 @@
+.aside{
+    background-color: white;
+    height: 100vh;
+    width: 15vw;
+    position: fixed;
+}
+
+.logoaside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+}
+.logoaside p{
+    margin: auto;
+    font-size: 1.5vw;
+    margin-right: 3vw;
+}
+.menu_aside{
+    margin-bottom: 1vw; 
+}
+.logo_mercurious{
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+.aside_buttons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vw;
+}
+.aside_buttons p{
+    text-align: left;
+    margin-left: 2vw;
+}
+.aside_button{
+    color: #AEAEB1;
+    width: 12vw;
+    height: 3vw;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 1vw;
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.aside_button:hover{
+    background-color: #0177FB;
+    color: white;
+}
+.icon_aside{
+    height: 1.2vw; 
+    margin:auto 1vw auto 1vw;
+}
+
+hr{
+    width: 80%;
+    margin: 2vw auto 2vw auto ;
+}
+.aside button:hover{
+    cursor: pointer;
+}
